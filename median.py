@@ -7,7 +7,7 @@ while True:
         numbers = [float(value) for value in input().split(",")]
         numbers.sort()
         if len(numbers)%2 == 0:
-            returnValue = (numbers[len(numbers) / 2] + numbers[len(numbers)/2 - 1])/2
+            returnValue = (numbers[len(numbers) // 2] + numbers[len(numbers)//2 - 1])/2
             print(returnValue)
         else:
             print(numbers[len(numbers) // 2])
